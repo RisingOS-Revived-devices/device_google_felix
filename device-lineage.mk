@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
 # Basic Call Recorder
 include vendor/bcr/bcr.mk
 
+# PixelSupport
+include device/google/gs-common/pixelsupport/pixelsupport.mk
+
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/felix-kernel/Image.lz4
 
