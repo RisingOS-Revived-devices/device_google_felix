@@ -7,3 +7,6 @@ BOARD_SEPOLICY_DIRS += device/google/felix/sepolicy/fingerprint_capacitance
 
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/vibrator/common
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/vibrator/cs40l26
+
+# audio
+BOARD_SEPOLICY_DIRS += device/google/felix/sepolicy/audio
