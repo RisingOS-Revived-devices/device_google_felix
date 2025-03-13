@@ -31,6 +31,20 @@ TARGET_HAS_UDFPS := true
 # Gms 
 WITH_GMS := true
 
+# Ship Pixel Launcher
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# Ship Google Camera
+TARGET_PREBUILT_GOOGLE_CAMERA := true
+
+# Lawnchair Prebuilt
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+RISING_MAINTAINER=EliteDarkKaiser
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="felix-user 15 BP1A.250305.019 13003188 release-keys" \
     BuildFingerprint=google/felix/felix:15/BP1A.250305.019/13003188:user/release-keys \
