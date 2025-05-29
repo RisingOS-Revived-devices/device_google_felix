@@ -28,9 +28,6 @@ PRODUCT_SYSTEM_SERVER_JARS += \
 PRODUCT_PACKAGES += \
     Iwlan
 
-# Viper4Android FX
--include packages/apps/ViPER4AndroidFX/config.mk
-
 # Face Unlock
 -include vendor/google/faceunlock/config.mk
 
