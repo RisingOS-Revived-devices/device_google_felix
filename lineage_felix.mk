@@ -37,9 +37,6 @@ TARGET_DEFAULT_PIXEL_LAUNCHER := false
 # Ship Google Camera
 TARGET_PREBUILT_GOOGLE_CAMERA := true
 
-# Lawnchair Prebuilt
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
 
