@@ -32,7 +32,7 @@ TARGET_HAS_UDFPS := true
 WITH_GMS := true
 
 # Ship Pixel Launcher
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
 # Ship Google Camera
 TARGET_PREBUILT_GOOGLE_CAMERA := true
