@@ -28,11 +28,8 @@ PRODUCT_SYSTEM_SERVER_JARS += \
 PRODUCT_PACKAGES += \
     Iwlan
 
-# Face Unlock
--include vendor/google/faceunlock/config.mk
-
-# Basic Call Recorder
--include vendor/bcr/bcr.mk
+# Ship Google Face Unlock ( GFU )Add commentMore actions
+TARGET_SUPPORTS_GFU := true
 
 # PixelSupport
 include device/google/gs-common/pixelsupport/pixelsupport.mk
