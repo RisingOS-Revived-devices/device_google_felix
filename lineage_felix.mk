@@ -34,6 +34,9 @@ WITH_GMS := true
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
 
+#Ship Pixel Overlays
+WITH_PIXEL_OVERLAYS := false
+
 RISING_MAINTAINER=EliteDarkKaiser
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
