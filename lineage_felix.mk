@@ -31,6 +31,11 @@ TARGET_HAS_UDFPS := true
 # Gms 
 WITH_GMS := true
 
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+RISING_MAINTAINER=EliteDarkKaiser
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="felix-user 16 BP2A.250705.008 13578956 release-keys" \
     BuildFingerprint=google/felix/felix:16/BP2A.250705.008/13578956:user/release-keys \
