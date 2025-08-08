@@ -28,8 +28,11 @@ PRODUCT_SYSTEM_SERVER_JARS += \
 PRODUCT_PACKAGES += \
     Iwlan
 
-# Ship Google Face Unlock ( GFU )Add commentMore actions
+# Ship Google Face Unlock ( GFU )
 TARGET_SUPPORTS_GFU := true
+
+# Google Camera Prebuilt
+-include vendor/google/camera/camera.mk
 
 # PixelSupport
 include device/google/gs-common/pixelsupport/pixelsupport.mk
