@@ -23,6 +23,9 @@ TARGET_BOARD_KERNEL_HEADERS ?= $(RELEASE_KERNEL_FELIX_DIR)/kernel-headers
 
 $(call inherit-product, device/google/felix/uwb/uwb_calibration_country.mk)
 
+# Use libc variant by default
+PRODUCT_USE_SCUDO := true
+
 DEVICE_PACKAGE_OVERLAYS += device/google/felix/felix/overlay
 
 include device/google/felix/audio/felix/audio-tables.mk
