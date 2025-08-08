@@ -25,6 +25,12 @@ PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 TARGET_SCREEN_HEIGHT := 2092
 TARGET_SCREEN_WIDTH := 1080
 
+# Addons
+TARGET_HAS_UDFPS := true
+
+# Gms 
+WITH_GMS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="felix-user 16 BP2A.250705.008 13578956 release-keys" \
     BuildFingerprint=google/felix/felix:16/BP2A.250705.008/13578956:user/release-keys \
