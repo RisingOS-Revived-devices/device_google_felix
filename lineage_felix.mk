@@ -31,6 +31,8 @@ TARGET_PREBUILT_BCR := true
 
 # Gms 
 WITH_GMS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+RELEASE_PIXEL_2025_ENABLED := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
