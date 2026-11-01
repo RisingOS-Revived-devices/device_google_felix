@@ -37,7 +37,7 @@ PRODUCT_NO_CAMERA := true
 WITH_GMS := true
 
 # Addons
-TARGET_HAS_UDFPS := true
+TARGET_HAS_UDFPS := false
 TARGET_PREBUILT_BCR := true
 
 # Launcher Flags
